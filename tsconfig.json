@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "build",
+    "outDir": "./build",
     "types": ["node"],
     /* Basic Options */
     // "incremental": true,                   /* Enable incremental compilation */
