@@ -3,7 +3,7 @@ import Postgrator from "postgrator";
 export const migrate = async (options: Postgrator.Options) => {
   const postgrator = new Postgrator({
     ...options,
-    migrationDirectory: "./src/migrations", // path relative to build folder
+    migrationDirectory: "../src/migrations", // path relative to build folder
     // driver: "mssql",
     // host: host, // note that port-forwarding needs to be activated if connecting to db in kubernetes container!
     // port: 1433,
